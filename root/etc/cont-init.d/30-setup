@@ -1,4 +1,4 @@
-#!/usr/bin/with-contenv bash
+#!/command/with-contenv bash
 
 if [ ! -f /config/nginx/site-confs/healthcheck ]; then
   cp /defaults/healthcheck /config/nginx/site-confs/healthcheck

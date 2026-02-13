@@ -67,9 +67,6 @@ RUN \
     "https://github.com/just-containers/s6-overlay/releases/download/v${S6_REL}/s6-overlay-${S6_ARCH}.tar.xz" && \
   tar -C / -Jxpf /tmp/s6-overlay-noarch.tar.xz && \
   tar -C / -Jxpf /tmp/s6-overlay-arch.tar.xz && \
-  echo "**** create s6 v3 compatibility symlinks ****" && \
-  ln -s /command/with-contenv /usr/bin/with-contenv && \
-  ln -s /command/execlineb /usr/bin/execlineb && \
   echo "**** create php symlink ****" && \
   ln -s /usr/bin/php85 /usr/bin/php && \
   echo "**** create abc user and make folders ****" && \
