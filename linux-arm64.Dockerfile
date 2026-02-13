@@ -48,6 +48,7 @@ RUN \
     php85-pdo_sqlite \
     php85-session \
     php85-simplexml \
+    php85-sodium \
     php85-sqlite3 \
     php85-tokenizer \
     php85-xmlwriter \
